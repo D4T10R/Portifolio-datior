@@ -1,0 +1,92 @@
+body {
+    background: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jost:wght@400;700&display=swap');
+
+:root {
+    --font-jost: 'Jost', sans-serif;
+    --font-jockey: 'Jockey One', sans-serif;
+}
+
+/* CABECALHO */
+
+.navegacao {
+    display: flex;
+    gap: 10%;
+    justify-content:  center;
+    margin: 1em 0;
+    font-size: 2.25rem;
+}
+
+.navegacao__links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* pagina inicial */
+
+.apresentacao {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.apresentacao__pessoa {
+    margin: 1.4em;
+    width: 20%;
+}
+
+.pessoa__imagem {
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lista__itens {
+    font-family: var(--font-jost);
+    font-size: 1.3rem;
+    margin-bottom: 0.6em;
+    color: #ECFF7A;
+}
+
+.apresentacao__historia {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1.5em;
+    color: #FFFDD1;
+    font-size: 2rem;
+    font-family: var(--font-jockey);
+}
+
+.sobre_botao {
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    font-size: 2.25rem;
+    font-family: var(--font-jost);
+    color: black;
+    font-weight: bold;
+    padding: 0.4em;
+    background-color: #ECFF7A;
+    border-radius: 1em;
+    margin: 1.5em 0 0 33%;
+}
+
+/* RODAPE */
+
+.rodape {
+    background: #ECFF7A;
+}
+
+.rodape h2 {
+    margin-top: 3em;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-jost);
+    padding: 0.5em;
+}

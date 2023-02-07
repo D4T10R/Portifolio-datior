@@ -1,0 +1,56 @@
+body {
+    background: #04020B;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
+:root {
+    --font-jost: 'Jost', sans-serif;
+}
+
+.inicio__titulo {
+    color: #ECFF7A;
+    text-align: center;
+    padding: 3%;
+    font-family: var(--font-jost);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.conhecer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.conhecer__texto {
+    width: 50%;
+    font-size: 2rem;
+    font-family: var(--font-jost);
+}
+
+.proxima__pagina {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 25%;
+}
+
+.conhecer__imagem {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.botao {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--font-jost);
+    color: black;
+    font-weight: bold;
+    padding: 0.4em;
+    background-color: #00B2FF;
+    margin: 5%;
+    border-radius: 1em;
+}
